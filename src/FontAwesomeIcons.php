@@ -2,7 +2,7 @@
 
 namespace Filafly\Icons\FontAwesome;
 
-use Filafly\FilamentIcons\IconSet;
+use Filafly\Icons\IconSet;
 
 class FontAwesomeIcons extends IconSet
 {

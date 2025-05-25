@@ -4,7 +4,9 @@
 
 # Filament FontAwesome Icons
 
-A Font Awesome icon set implementation for Filament 3.x, providing a comprehensive set of Font Awesome icons that seamlessly integrate with Filament's interface.
+A Font Awesome icon set implementation for [Filament Icons](https://github.com/filafly/filament-icons), providing a comprehensive set of Font Awesome icons that seamlessly integrate with Filament's interface.
+
+This package extends the base Filament Icons package to replace Filament's default Heroicons with Font Awesome icons.
 
 ## Installation
 
@@ -14,10 +16,12 @@ You can install the package via composer:
 composer require filafly/filament-font-awesome-icons
 ```
 
+> **Note:** This package automatically installs the required `filafly/filament-icons` base package.
+
 After the package is installed, you must register the plugin in your Filament Panel provider:
 
 ```php
-use Filafly\FilamentFontAwesomeIcons\FontAwesomeIcons;
+use Filafly\Icons\FontAwesomeIcons;
 
 public function panel(Panel $panel): Panel
 {

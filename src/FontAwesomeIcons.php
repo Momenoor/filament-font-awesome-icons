@@ -1,6 +1,6 @@
 <?php
 
-namespace Filafly\FilamentFontAwesomeIcons;
+namespace Filafly\Icons\FontAwesome;
 
 use Filafly\FilamentIcons\IconSet;
 
@@ -704,8 +704,8 @@ class FontAwesomeIcons extends IconSet
 
     public function free(): self
     {
-        $regular = include __DIR__ . '/free-regular-icons.php';
-        $solid = include __DIR__ . '/free-solid-icons.php';
+        $regular = include __DIR__.'/free-regular-icons.php';
+        $solid = include __DIR__.'/free-solid-icons.php';
 
         $onlySolidExists = array_diff_key($solid, $regular);
 

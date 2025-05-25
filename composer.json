@@ -27,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Filafly\\FilamentFontAwesomeIcons\\": "src/"
+      "Filafly\\Icons\\FontAwesome\\": "src/"
     }
   },
   "minimum-stability": "dev",
